@@ -1,4 +1,4 @@
-## introduction
+## Introduction
 this project is totally online banking mangement system ,he she  can register the account and can transfer the amount to the others also
 ##  Requirements
 ##  High Level Requirements
