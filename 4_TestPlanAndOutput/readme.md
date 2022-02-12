@@ -1,5 +1,5 @@
 
-| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |PASS/FAIL |    
+| **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test** | **PASS/FAIL**|    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
 |  H_01       |Entry choice |  input is 1| shows to register the account|displays the mobile no,acc no,create pasword|Technical |PASS
 |  H_02       |Entry choice|  input is 2| shows the login login with credentials|Dispaly the option after login sucees in new page|Technical   |PASS
