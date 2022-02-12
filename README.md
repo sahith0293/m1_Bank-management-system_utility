@@ -6,3 +6,4 @@ https://app.codiga.io/public/project/31048/m1_Bank-management-system_utility/das
 https://api.codiga.io/project/31048/score/svg
 ![image](https://user-images.githubusercontent.com/63460090/153709381-f038ebff-037f-4fd6-910b-d61e40eb3547.png)
 
+[![Build-linux](https://github.com/sahith0293/m1_Bank-management-system_utility/actions/workflows/linux.yml/badge.svg)](https://github.com/sahith0293/m1_Bank-management-system_utility/actions/workflows/linux.yml)
