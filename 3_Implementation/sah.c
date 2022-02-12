@@ -1,6 +1,20 @@
+/**
+ * @file sah.cgcc
+ * @author your name (you@domain.com)
+ * @brief 
+ * @version 0.1
+ * @date 2022-02-12
+ * 
+ * @copyright Copyright (c) 2022
+ * creating a online banking website
+ * 
+ */
+
+ 
 #include<stdio.h>
 #include<string.h>
 #include<stdlib.h>
+
 
 struct customer {
     char number[50];
@@ -107,6 +121,10 @@ int main(){
                         else{
                             strcpy(filename,mobile_number);
                             fp = fopen(strcat(filename,".dot"),"r");
+                            if (fp == NULL){
+                                printf("\nmobile number not registered");
+                                return 0;
+                            }
                             fread(&cus1,sizeof(struct customer),1,fp);
                             fclose(fp);
                             fp = fopen(filename,"w");
@@ -121,7 +139,10 @@ int main(){
                                 cus.balance -= amount;
                                 fwrite(&cus,sizeof(struct customer),1,fp);
                                 fclose(fp);
+                                break;
                             }
+                            default:
+                                  printf("\ninvalid option");
                             
                             
                         }
