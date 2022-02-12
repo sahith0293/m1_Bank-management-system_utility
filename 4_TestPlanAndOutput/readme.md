@@ -3,8 +3,8 @@
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|---------------|
 |  H_01       |Entry choice |  input is 1| shows to register the account|displays the mobile no,acc no,create pasword|Technical |PASS
 |  H_02       |Entry choice|  input is 2| shows the login login with credentials|Dispaly the option after login sucees in new page|Technical   |PASS
-|  H_03       |tested multiplication of two matrices|  matrix1, matrix2, n|SUCCESS|SUCCESS|Technical |
-|  H_04       |tested determinant of a matrix|  matrix1, n|SUCCESS|SUCCESS|Technical |
+|  H_03       |If You Choose the option of balance enquiry|  shows the balance|Display the balance|Dispaly the balance|Technical | PASS
+|  H_04       |IF you choose the option transfer,Display the option of mobilenumber,amount to transfer if the amount is > pressing the amount| enter the number to transfer,amountto deposit |SUCCESS transfer|SUCCESS transfer|Technical |PASS
 |  H_05       |tested transpose of a matrix|  matrix1, n|SUCCESS|SUCCESS|Technical |
 |  H_06       |tested inverse of a matrix|  matrix1, n|SUCCESS|SUCCESS|Technical |
 |  H_07       |tested power of -1 function| 3|-1|-1|Technical |
