@@ -1,7 +1,7 @@
 
 | **Test ID** | **Description**                                              | **Exp I/P** | **Exp O/P** | **Actual Out** |**Type Of Test**  |    
 |-------------|--------------------------------------------------------------|------------|-------------|----------------|------------------|
-|  H_01       |tested addition of two matrices|  matrix1, matrix2, n| SUCCESS|SUCCESS|Technical |
+|  H_01       |Entry choice |  input is 1| shows to register the account|displays the mobile no,acc no,create pasword|Technical |
 |  H_02       |tested subtraction of two matrices|  matrix1, matrix2, n|SUCCESS|SUCCESS|Technical   |
 |  H_03       |tested multiplication of two matrices|  matrix1, matrix2, n|SUCCESS|SUCCESS|Technical |
 |  H_04       |tested determinant of a matrix|  matrix1, n|SUCCESS|SUCCESS|Technical |
